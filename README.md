@@ -1,5 +1,7 @@
 # Pure CMOS Logic Hardware Digital Timer ⏱️
 
+![PCB Verification](https://github.com/ngvkhoa/DIGITAL_TIMER_nvk/actions/workflows/pcb_check.yml/badge.svg)
+
 A microcontroller-free, hardware-level digital countdown and count-up timer designed entirely using **CMOS logic ICs** (CD40110BE, CD4011) and precision analog timing networks (**NE556**).
 
 This project demonstrates deterministic state machines, RC switch debouncing, and cascaded decade counting without relying on software, firmware, or programmable logic.
