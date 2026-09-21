@@ -11,7 +11,7 @@ This project demonstrates deterministic state machines, RC switch debouncing, an
 ### 1. PCB Layout & 3D Visualization
 | 2D PCB Layout | 3D Rendered Board |
 | :---: | :---: |
-| ![PCB Layout](images/pcb_Dd.png) | ![PCB 3D Visualization](images/pcb_3D.png) |
+| ![PCB Layout](images/pcb_2D.png) | ![PCB 3D Visualization](images/pcb_3D.png) |
 
 ---
 
