@@ -8,14 +8,10 @@ This project demonstrates deterministic state machines, RC switch debouncing, an
 
 ## 📸 Hardware Implementation & Simulation
 
-### 1. Circuit Schematic
-![Circuit Schematic](images/schematic.png)
-*Figure 1: Complete circuit schematic modeled and simulated in Proteus.*
-
-### 2. PCB Layout & 3D Visualization
+### 1. PCB Layout & 3D Visualization
 | 2D PCB Layout | 3D Rendered Board |
 | :---: | :---: |
-| ![PCB Layout](images/pcb_2d.png) | ![PCB 3D Visualization](images/pcb_3d.png) |
+| ![PCB Layout](images/pcb_Dd.png) | ![PCB 3D Visualization](images/pcb_3D.png) |
 
 ---
 
@@ -97,15 +93,6 @@ This project demonstrates deterministic state machines, RC switch debouncing, an
 * **CMOS Termination:** Because CMOS inputs have near-infinite input impedance, any unreferenced pin acts as an antenna. All unused logic inputs and tactile switch lines are terminated to `GND` via $10\,\text{k}\Omega$ pull-down resistors to completely eliminate ghost counting.
 * **Transient Decoupling:** One $100\,\text{nF}$ ceramic capacitor is placed physically within 5mm of the supply pin ($V_{DD}$ / $V_{CC}$) of each active IC to bypass transient switching currents to ground.
 * **Common Ground Plane:** The 2-layer PCB layout utilizes a continuous bottom ground copper pour to suppress electromagnetic interference (EMI) originating from the timer switching edges.
-
----
-
-## 📂 Repository File Index
-
-* `hardware/proteus/TIMER.pdsprj`: Complete interactive Proteus schematic.
-* `hardware/gerber/`: Production-ready RS-274X Gerber files for PCB fabrication.
-* `hardware/mechanical/TIMER.DXF`: 2D mechanical footprint and mounting hole coordinates.
-* `images/`: High-resolution schematics, PCB layouts, and circuit diagrams.
 
 ---
 
